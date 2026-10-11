@@ -1,0 +1,30 @@
+# Python
+env/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Environment
+a.env
+.env
+
+# Data and indexes
+/data/uploads/*
+/data/processed/*
+!/data/sample_documents/
+!/data/sample_documents/*.txt
+*.faiss
+*.index
+*.pkl
+*.bin
+
+# Tests / logs
+.pytest_cache/
+*.log
+/out.txt
+/probe.py
+/pytest_results.txt
+
+# OS
+.DS_Store
+Thumbs.db
